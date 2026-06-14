@@ -1,0 +1,13 @@
+{
+	"required": true,
+	"package": "com.valaphee.edgejump.mixin",
+	"compatibilityLevel": "JAVA_21",
+	"refmap": "edge-jump-refmap.json",
+	"client": [
+		"ClientPlayerEntityAccessor",
+		"ClientPlayerEntityMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	}
+}

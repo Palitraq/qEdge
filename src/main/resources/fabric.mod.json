@@ -1,0 +1,31 @@
+{
+	"schemaVersion": 1,
+	"id": "edge-jump",
+	"version": "${version}",
+	"name": "Edge Jump",
+	"description": "A simple mod which makes you jump of edges.",
+	"authors": [
+		"Valaphee"
+	],
+	"contact": {
+		"homepage": "https://valaphee.com/",
+		"sources": "https://github.com/valaphee/EdgeJump"
+	},
+	"license": "Apache",
+	"icon": "assets/edge-jump/icon.png",
+	"environment": "client",
+	"entrypoints": {
+		"client": [
+			"com.valaphee.edgejump.EdgeJump"
+		]
+	},
+	"mixins": [
+		"edge-jump.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.19.2",
+		"minecraft": "~1.21",
+		"java": ">=21",
+		"fabric-api": "*"
+	}
+}

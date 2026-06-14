@@ -1,0 +1,13 @@
+{
+  "mixin": {
+    "com.valaphee.edgejump.mixin.ClientPlayerEntityMixin": {
+      "adjustMovementForSneaking": "method_18796",
+      "clipAtLedge": "method_21825"
+    }
+  },
+  "accessor": {
+    "com.valaphee.edgejump.mixin.ClientPlayerEntityAccessor": {
+      "setTicksToNextAutojump": "field_3934"
+    }
+  }
+}

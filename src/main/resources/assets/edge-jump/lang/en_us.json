@@ -1,0 +1,6 @@
+{
+  "key.edge-jump.toggle": "Toggle Edge Jump",
+  "category.edge-jump": "Edge Jump",
+  "msg.edge-jump.enabled": "Edge Jump: ON",
+  "msg.edge-jump.disabled": "Edge Jump: OFF"
+}
